@@ -1,0 +1,205 @@
+:root {
+    --text-color: #757575;
+    --header-color: #212121;
+    --header-color-bg: #FFFFFF;
+    --hover-color: #2196F3;
+    --logo-color: #000000;
+    --team-color-bg: #F5F4FA;
+    --hover-button: #188CE8;
+    --footer-color-bg: #2F303A;
+}
+body{
+    font-family: 'Roboto';
+    letter-spacing: 0.03em;
+}
+a{
+    text-decoration: none;
+}
+.header-link {
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--hover-color);
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    color: var(--logo-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.header-logo {
+    color: var(--hover-color);
+}
+.footer-logo {
+    color: var(--hover-color);
+}
+.address-link-header {
+    color:var(--text-color)
+}
+.section {
+    background-color: var(--footer-color-bg);
+}
+.section-text {
+    color: var(--header-color-bg);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.section-btn {
+    color: var(--header-color-bg);
+    background-color: var(--hover-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.section-btn:hover {
+    background-color: var(--hover-button);
+}
+.header-invisible {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.features-item-header {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.features-item-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.activity-header {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-header {
+    color: var(--header-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-list-item {
+    background-color: var(--header-color-bg);
+}
+.team {
+    background-color: var(--team-color-bg);
+}
+.team-member {
+    font-size: 16px;
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.footer {
+    background-color: var(--footer-color-bg);
+}
+.footer-link {
+    color: var(--header-color-bg);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.address-link-footer {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--hover-color);
+}
+.footer-link-logo {
+    color: var(--header-color-bg);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.item-btn {
+    font-family: inherit;
+    color: var(--header-color);
+    background-color: var(--team-color-bg); 
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+.item-btn:hover,
+.item-btn:focus {
+    color: var(--header-color-bg);
+    background-color: var(--hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-header {
+    color: var(--header-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}
+.active-link {
+    color: var(--hover-color);
+}
+.active-btn {
+    background-color: var(--hover-button);
+    color: var(--header-color-bg);
+    border-radius: 4px;
+}
