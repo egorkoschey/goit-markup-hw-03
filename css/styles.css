@@ -7,6 +7,7 @@
     --team-color-bg: #F5F4FA;
     --hover-button: #188CE8;
     --footer-color-bg: #2F303A;
+    --border-color: #eeeeee;
 }
 body{
     font-family: 'Roboto';
@@ -312,12 +313,34 @@ ul {
     background-color: var(--hover-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.portfolio-works {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * 30px);
+    margin-left: calc(-1 * 30px);
+    padding: 0;
+    border: 1px;
+}
+.portfolio-works-item {
+    background-color: var(--header-color-bg);
+    flex-basis: calc(100% / 3 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.portfolio-works-box {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
 .portfolio-header {
     color: var(--header-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 .portfolio-text{
     color: var(--text-color);
