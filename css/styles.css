@@ -39,7 +39,6 @@ p {
 .header-container {
     display: flex;
     align-items: center;
-    height: 80px;
 }
 .header-link {
     color: var(--header-color);
@@ -47,6 +46,9 @@ p {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -226,8 +228,7 @@ ul {
     padding-top: 94px;
 }
 .team-box {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
 }
 .team-member {
     font-size: 16px;
@@ -258,6 +259,8 @@ ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}
+.address-list-item {
     margin-bottom: 9px;
 }
 .address-link-footer {
@@ -290,7 +293,7 @@ ul {
     margin-bottom: 50px;
 }
 .portfolio-btn-item:not(:last-child) {
-    padding-right: 8px;
+    margin-right: 8px;
 }
 .item-btn {
     font-family: inherit;
@@ -319,7 +322,6 @@ ul {
     margin-top: calc(-1 * 30px);
     margin-left: calc(-1 * 30px);
     padding: 0;
-    border: 1px;
 }
 .portfolio-works-item {
     background-color: var(--header-color-bg);
